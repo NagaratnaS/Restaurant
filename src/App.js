@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import FoodIcon from './Images/FoodIcon.jpg'
+import Header from './Header/Header';
+import Orders from './Orders/Order';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ height: '100vh' , backgroundImage: `url(${FoodIcon})` , backgroundSize:"100%" , backgroundRepeat: 'no-repeat' }}>
+      <Header/>
+
+      <div>
+        <Orders/>
+      </div>
     </div>
   );
 }

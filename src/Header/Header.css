@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    height: 12%;
+    background-color: black;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-left: 70%;
+    margin-top: 0%;
+}
+
+.homeButton{
+    background-color: black;
+    border: none;
+    text-align: center;
+    color: #FFFAF0;
+    margin-top: 8%;
+}
